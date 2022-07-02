@@ -1,5 +1,6 @@
 #include "secondwindow.h"
 #include "ui_secondwindow.h"
+#include "scene.h"
 
 SecondWindow::SecondWindow(QWidget *parent) :
     QDialog(parent),
@@ -12,3 +13,8 @@ SecondWindow::~SecondWindow()
 {
     delete ui;
 }
+
+void SecondWindow::on_pushButton_clicked()
+{
+}
+
